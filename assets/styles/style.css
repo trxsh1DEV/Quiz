@@ -118,7 +118,22 @@ h1 {
 }
 
 footer {
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 19px;
+    margin-top: 50px;
+    text-shadow: 1px 2px 2px #333;
+    color: #EEE;
+}
+footer a {
+    color: orchid;
+    text-shadow: none;  
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: inline-block;
+}
+footer a:hover{
+    padding-left: 6px;
+    transform:scale(1.25);
 }
